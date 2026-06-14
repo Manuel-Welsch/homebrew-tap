@@ -7,7 +7,7 @@ cask "clipref" do
   desc "Menu-bar app that saves the clipboard to a file and gives you an @-path for Claude Code"
   homepage "https://github.com/Manuel-Welsch/ClipRef"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ClipRef.app"
 
